@@ -9,3 +9,12 @@ for num in l:
     print num
     
 print("check this commit out!")
+
+d3={'key1':'plants', 'key2':'trees', 'key3':'vegetables'}
+d2={'keyy':d3}
+d1={'keyx':d2,'key4':'flowers'}
+print d1
+print 'D2 dictionary is = ' + str(d1['keyx'])
+print 'Middle element of dictionary D3 is = ' + d1['keyx']['keyy']['key2']
+
+
