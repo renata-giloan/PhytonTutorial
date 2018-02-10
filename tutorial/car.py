@@ -4,9 +4,9 @@ listaFruits= ['apple', 'orange', 'banana']
 matrix=[listazoo, listaCars, listaFruits]
 print matrix
 
-l=[1,2,3,4,5,6,7,8,9,10]
-for num in l:
-    print num
+list=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for each_element in list:
+    print each_element+100
     
 print("check this commit out!")
 
