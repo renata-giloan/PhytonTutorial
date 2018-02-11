@@ -1,0 +1,22 @@
+l = [25, 3, 12, 15, 7, 9, 10, 11, 14, 5, 17]
+
+# Compute the sum of elements of a list
+s = 0
+for num in l:
+    # print "num is: " + str(num)
+    # print "sum before addition is: " + str(s)
+    s = s + num
+    # print "sum after addition is: " + str(s)
+    # print'---------------------------------------
+print s
+
+# Compute the sum of elements of the first half of a list
+s = 0
+for i, e in enumerate(l):
+    if (len(l) % 2 == 0):
+        if i < len(l) / 2:
+            s = s + e
+    elif (i <= len(l) / 2):
+        s = s + e
+print s
+print len(l)

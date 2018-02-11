@@ -1,0 +1,7 @@
+l = [(3,5,7),(7,9,4,1),(5,9,2)]
+for tup in l:
+    print tup
+
+# Unpacking tuples
+for (t1,t2,t3) in l:
+    print t1,t2
